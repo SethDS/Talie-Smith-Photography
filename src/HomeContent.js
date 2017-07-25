@@ -6,14 +6,20 @@ class HomeContent extends Component {
             return(
                 <div className="homeContent">
                     <div className="homeContentHero">
-                        <img />
                         <div className="homeContentHeroHeading"><h2>Family</h2></div>
                     </div>
 
-                    <div className="homeContentNext"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
-                    <div className="homeContentPrevious"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></div>
+                    <div className="homeContentNext"><i className="fa fa-long-arrow-right" ariaHidden="true"></i></div>
+                    <div className="homeContentPrevious"><i className="fa fa-long-arrow-left" ariaHidden="true"></i></div>
 
-                    <div className="homeContentIndicator"></div>
+                    <div className="homeContentIndicator">
+                        <div className="homeContentIndicatorDot dotOne"></div>
+                        <div className="homeContentIndicatorDot dotTwo"></div>
+                        <div className="homeContentIndicatorDot dotThree"></div>
+                        <div className="homeContentIndicatorDot dotFour"></div>
+                        <div className="homeContentIndicatorDot dotFive"></div>
+                        <div className="homeContentIndicatorDot dotSix"></div>
+                    </div>
                 </div>
             )
 

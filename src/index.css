@@ -20,7 +20,7 @@ body {
     position: absolute;
     height: 100%;
     font-family: 'Rock Salt', cursive;
-    color: white;
+    color:  #48363d;
     left: 50%;
     transform: translate(-50%);
     display: flex;
@@ -77,11 +77,73 @@ body {
     transform: translate(-50%);
     height: calc(100% - 25%);
     width: calc(100% - 20%);
-    background-color: aquamarine;
+    background-image: url('./images/david-straight-123965.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.homeContentHero::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: chocolate;
+    opacity: 0.3;
 }
 .homeContentHeroHeading {
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%);
+    color: white;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+.homeContentNext {
+    position: absolute;
+    font-size: larger;
+    right: 0;
+    width: 15%;
+    height: 10%;
+    background-color: white;
+    opacity: 0.5;
+    top: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeContentPrevious {
+    position: absolute;
+    font-size: larger;
+    left: 0;
+    width: 15%;
+    height: 10%;
+    top: 50%;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeContentIndicator {
+    position: absolute;
+    bottom: 10%;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.homeContentIndicatorDot {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.dotOne {
+    background-color: white;
 }
