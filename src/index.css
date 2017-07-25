@@ -5,7 +5,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url('./images/keith-misner-308.jpg');
+    background-image: url('./images/geoffrey-datema-67093.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: 50%;
@@ -20,7 +20,7 @@ body {
     position: absolute;
     height: 100%;
     font-family: 'Rock Salt', cursive;
-    color:  #48363d;
+    color:  snow;
     left: 50%;
     transform: translate(-50%);
     display: flex;
@@ -106,7 +106,7 @@ body {
     width: 15%;
     height: 10%;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.7;
     top: 50%;
     color: black;
     display: flex;
@@ -121,7 +121,7 @@ body {
     height: 10%;
     top: 50%;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.7;
     color: black;
     display: flex;
     justify-content: center;
