@@ -3,6 +3,44 @@ import HomeContent from './HomeContent.js';
 import './index.css';
 
 class App extends Component {
+
+    constructor(){
+        this.state = {
+            views: [
+                {
+                    title: "Family",
+                    picRef: "./images/family.jpg",
+                    path: "something.."
+                },
+                {
+                    title: "Portrait",
+                    picRef: "./images/portrait.jpg",
+                    path: "something..."
+                },
+                {
+                    title: "Travel",
+                    picRef: "./images/travel.jpg",
+                    path: "something..."
+                },
+                {
+                    title: "Browse All",
+                    picRef: "./images/browse-all.jpg",
+                    path: "something"
+                },
+                {
+                    title: "Contact",
+                    picRef: "./images/contact.jpg",
+                    path: "something"
+                },
+                {
+                    title: "About",
+                    picRef: "./images/about.jpg",
+                    path: "something..."
+                }
+            ]
+        }
+    }
+
   render() {
     return (
       <div className="App">
@@ -19,7 +57,7 @@ class App extends Component {
             </div>
         </div>
 
-          <HomeContent titles="Family" />
+          <HomeContent sections={this.state.views} />
       </div>
 
     );

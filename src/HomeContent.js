@@ -2,11 +2,13 @@ import React, {Component} from 'react';
 import './index.css';
 
 class HomeContent extends Component {
+
+    
     render(){
             return(
                 <div className="homeContent">
                     <div className="homeContentHero">
-                        <div className="homeContentHeroHeading"><h2>{this.props.title}</h2></div>
+                        <div className="homeContentHeroHeading"><h2>{this.props.sections[0].title}</h2></div>
                     </div>
 
                     <div className="homeContentNext"><i className="fa fa-long-arrow-right" ariaHidden="true"></i></div>
