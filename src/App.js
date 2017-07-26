@@ -19,7 +19,7 @@ class App extends Component {
             </div>
         </div>
 
-          <HomeContent />
+          <HomeContent titles="Family" />
       </div>
 
     );

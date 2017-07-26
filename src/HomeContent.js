@@ -6,7 +6,7 @@ class HomeContent extends Component {
             return(
                 <div className="homeContent">
                     <div className="homeContentHero">
-                        <div className="homeContentHeroHeading"><h2>Family</h2></div>
+                        <div className="homeContentHeroHeading"><h2>{this.props.title}</h2></div>
                     </div>
 
                     <div className="homeContentNext"><i className="fa fa-long-arrow-right" ariaHidden="true"></i></div>
