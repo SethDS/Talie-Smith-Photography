@@ -8,13 +8,14 @@ class HomeContent extends Component {
 
         this.state = {
             backgroundPicNum: 0
+        }
     }
 
     render(){
 
             return(
                 <div className="homeContent">
-                    <div className="homeContentHero" style={{backgroundImage: this.props.sections[this.state.backgroundPicNum].picRef}}>
+                    <div className="homeContentHero">
                         <div className="homeContentHeroHeading"><h2>{this.props.sections[this.state.backgroundPicNum].title}</h2></div>
                     </div>
 
