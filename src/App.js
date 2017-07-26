@@ -8,7 +8,7 @@ class App extends Component {
         super();
 
         this.state = {
-            views: [
+            sections: [
                 {
                     title: "Family",
                     picRef: "./images/family.jpg",
@@ -59,7 +59,7 @@ class App extends Component {
             </div>
         </div>
 
-          <HomeContent sections={this.state.views} />
+          <HomeContent sections={this.state.sections} />
       </div>
 
     );

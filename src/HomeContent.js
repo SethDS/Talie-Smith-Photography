@@ -7,26 +7,19 @@ class HomeContent extends Component {
         super();
 
         this.state = {
-            backgroundPicNum: 0,
-            incrementBackPicNum: function(){
-                this.backgroundPicNum += 1;
-        },
-            decrementBackPicNum: function(){
-                this.backgroundPicNum -= 1;
-            }
-        }
+            backgroundPicNum: 0
     }
 
     render(){
 
             return(
                 <div className="homeContent">
-                    <div className="homeContentHero">
+                    <div className="homeContentHero" style={{backgroundImage: this.props.sections[this.state.backgroundPicNum].picRef}}>
                         <div className="homeContentHeroHeading"><h2>{this.props.sections[this.state.backgroundPicNum].title}</h2></div>
                     </div>
 
-                    <div className="homeContentNext" onClick={this.state.incrementBackPicNum()}><i className="fa fa-long-arrow-right"></i></div>
-                    <div className="homeContentPrevious" onClick={this.state.decrementBackPicNum()}><i className="fa fa-long-arrow-left"></i></div>
+                    <div className="homeContentNext" onClick={()=> {if(this.state.backgroundPicNum < this.props.sections.length){this.state.backgroundPicNum++}; console.log(this.state.backgroundPicNum);}}><i className="fa fa-long-arrow-right"></i></div>
+                    <div className="homeContentPrevious" onClick={()=> {if(this.state.backgroundPicNum > 0){this.state.backgroundPicNum--}; console.log(this.state.backgroundPicNum);}}><i className="fa fa-long-arrow-left"></i></div>
 
                     <div className="homeContentIndicator">
                         <div className="homeContentIndicatorDot dotOne"></div>
