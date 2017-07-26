@@ -3,16 +3,30 @@ import './index.css';
 
 class HomeContent extends Component {
 
-    
+    constructor(){
+        super();
+
+        this.state = {
+            backgroundPicNum: 0,
+            incrementBackPicNum: function(){
+                this.backgroundPicNum += 1;
+        },
+            decrementBackPicNum: function(){
+                this.backgroundPicNum -= 1;
+            }
+        }
+    }
+
     render(){
+
             return(
                 <div className="homeContent">
                     <div className="homeContentHero">
-                        <div className="homeContentHeroHeading"><h2>{this.props.sections[0].title}</h2></div>
+                        <div className="homeContentHeroHeading"><h2>{this.props.sections[this.state.backgroundPicNum].title}</h2></div>
                     </div>
 
-                    <div className="homeContentNext"><i className="fa fa-long-arrow-right" ariaHidden="true"></i></div>
-                    <div className="homeContentPrevious"><i className="fa fa-long-arrow-left" ariaHidden="true"></i></div>
+                    <div className="homeContentNext" onClick={this.state.incrementBackPicNum()}><i className="fa fa-long-arrow-right"></i></div>
+                    <div className="homeContentPrevious" onClick={this.state.decrementBackPicNum()}><i className="fa fa-long-arrow-left"></i></div>
 
                     <div className="homeContentIndicator">
                         <div className="homeContentIndicatorDot dotOne"></div>

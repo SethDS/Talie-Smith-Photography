@@ -5,6 +5,8 @@ import './index.css';
 class App extends Component {
 
     constructor(){
+        super();
+
         this.state = {
             views: [
                 {
@@ -53,7 +55,7 @@ class App extends Component {
             </div>
             <div className="homeFollow">
                 <h3 className="followItem">follow</h3>
-                <i className="fa fa-plus-circle followItem" ariaHidden="true"></i>
+                <i className="fa fa-plus-circle followItem"></i>
             </div>
         </div>
 
