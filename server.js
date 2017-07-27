@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express();
 
-app.use(express.static(path.resolve('build') ));
+app.use(express.static('build'));
 
 
 var port = process.env.PORT || 5053;
