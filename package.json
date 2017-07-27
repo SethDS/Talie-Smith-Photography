@@ -2,6 +2,7 @@
   "name": "talie-smith",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
   "dependencies": {
     "express": "^4.15.3",
     "path": "^0.12.7",
