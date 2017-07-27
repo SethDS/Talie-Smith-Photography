@@ -38,6 +38,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+.homeMenu:active > .menuSection {
+    width: 30px;
+    opacity: 0.4;
+}
 .menuSection {
     margin-top: 10px;
     height: 2px;
@@ -115,6 +119,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+.homeContentNext:active {
+    width: 12%;
+    opacity: 0.4;
+}
 .homeContentPrevious {
     position: absolute;
     font-size: larger;
@@ -129,10 +137,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+.homeContentPrevious:active {
+    width: 12%;
+    opacity: 0.4;
+}
 .homeContentIndicator {
     position: absolute;
     bottom: 10%;
-    width: 50%;
+    width: 40%;
     left: 50%;
     transform: translate(-50%);
     display: flex;
