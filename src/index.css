@@ -146,4 +146,10 @@ body {
     border-radius: 50%;
     border: 2px solid white;
 }
-
+.theDot {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: white;
+}

@@ -12,32 +12,38 @@ class App extends Component {
                 {
                     title: "Family",
                     picRef: "./images/family.jpg",
-                    path: "something.."
+                    path: "something..",
+                    navDot: "dotzero"
                 },
                 {
                     title: "Portrait",
                     picRef: "./images/portrait.jpg",
-                    path: "something..."
+                    path: "something...",
+                    navDot: "dotone"
                 },
                 {
                     title: "Travel",
                     picRef: "./images/travel.jpg",
-                    path: "something..."
+                    path: "something...",
+                    navDot: "dottwo"
                 },
                 {
                     title: "Browse All",
                     picRef: "./images/browse-all.jpg",
-                    path: "something"
+                    path: "something",
+                    navDot: "dotthree"
                 },
                 {
                     title: "Contact",
                     picRef: "./images/contact.jpg",
-                    path: "something"
+                    path: "something",
+                    navDot: "dotfour"
                 },
                 {
                     title: "About",
                     picRef: "./images/about.jpg",
-                    path: "something..."
+                    path: "something...",
+                    navDot: "dotfive"
                 }
             ]
         }

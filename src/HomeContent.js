@@ -6,18 +6,12 @@ class HomeContent extends Component {
         super();
 
         this.state = {
-            backgroundPicNum: 0,
-            indicatorDot: function(aNum){
-                var theDot = document.getElementsByClassName('dot0');
-
-                console.log(document.getElementsByClassName('dot0'));
-                // theDot.style.backgroundColor = "white";
-            }
+            backgroundPicNum: 0
         }
     };
 
     componentWillMount(){
-            this.state.indicatorDot(this.state.backgroundPicNum);
+
     };
 
     render(){
@@ -32,12 +26,12 @@ class HomeContent extends Component {
                     <div className="homeContentPrevious" onClick={()=> {if(this.state.backgroundPicNum > 0){this.setState({backgroundPicNum: this.state.backgroundPicNum - 1})} console.log(this.state.backgroundPicNum);}}><i className="fa fa-long-arrow-left"></i></div>
 
                     <div className="homeContentIndicator">
-                    <div className="homeContentIndicatorDot dot0"></div>
-                    <div className="homeContentIndicatorDot dot1"></div>
-                    <div className="homeContentIndicatorDot dot2"></div>
-                    <div className="homeContentIndicatorDot dot3"></div>
-                    <div className="homeContentIndicatorDot dot4"></div>
-                    <div className="homeContentIndicatorDot dot5"></div>
+                            <div className="homeContentIndicatorDot" ref={ (dot) => { if(this.state.backgroundPicNum === 0){dot.className = "theDot"} else{dot.className = "homeContentIndicatorDot"} } }></div>
+                            <div className="homeContentIndicatorDot" ref={ (dot) => { if(this.state.backgroundPicNum === 1){dot.className = "theDot"} else{dot.className = "homeContentIndicatorDot"} } }></div>
+                            <div className="homeContentIndicatorDot" ref={ (dot) => { if(this.state.backgroundPicNum === 2){dot.className = "theDot"} else{dot.className = "homeContentIndicatorDot"} } }></div>
+                            <div className="homeContentIndicatorDot" ref={ (dot) => { if(this.state.backgroundPicNum === 3){dot.className = "theDot"} else{dot.className = "homeContentIndicatorDot"} } }></div>
+                            <div className="homeContentIndicatorDot" ref={ (dot) => { if(this.state.backgroundPicNum === 4){dot.className = "theDot"} else{dot.className = "homeContentIndicatorDot"} } }></div>
+                            <div className="homeContentIndicatorDot" ref={ (dot) => { if(this.state.backgroundPicNum === 5){dot.className = "theDot"} else{dot.className = "homeContentIndicatorDot"} } }></div>
                     </div>
                 </div>
             )
