@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import HomeContent from './HomeContent.js';
-import './index.css';
+import AppHeader from './AppHeader.js';
 
-class App extends Component {
+class HomeView extends Component {
 
     constructor(){
         super();
@@ -49,27 +49,15 @@ class App extends Component {
         }
     }
 
-  render() {
-    return (
-      <div className="App">
-        <div className="appHomeHeader">
-            <div className="appInitials"><h1>TS</h1></div>
-            <div className="homeMenu">
-              <div className="menuSection"></div>
-              <div className="menuSection"></div>
-              <div className="menuSection"></div>
+    render() {
+        return (
+            <div className="App">
+                <AppHeader />
+                <HomeContent sections={this.state.sections} />
             </div>
-            <div className="homeFollow">
-                <h3 className="followItem">follow</h3>
-                <i className="fa fa-plus-circle followItem"></i>
-            </div>
-        </div>
 
-          <HomeContent sections={this.state.sections} />
-      </div>
-
-    );
-  }
+        );
+    }
 }
 
-export default App;
+export default HomeView;
