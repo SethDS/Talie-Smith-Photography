@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 
 class AppHeader extends Component {
 
-    constructor(){
-        super();
+    // constructor(){
+    //     super();
+    //
+    // };
 
-    };
-
-    componentWillMount(){
-
-    };
+    // componentWillMount(){
+    //
+    // };
 
     render(){
 
@@ -30,9 +30,9 @@ class AppHeader extends Component {
 
     }
 
-    componentDidMount(){
-
-    }
+    // componentDidMount(){
+    //
+    // }
 
 }
 
