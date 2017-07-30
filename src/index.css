@@ -118,11 +118,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
-.homeContentNext:active {
-    width: 12%;
-    opacity: 0.4;
-}
+
 .homeContentPrevious {
     position: absolute;
     font-size: larger;
@@ -136,11 +134,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
 }
-.homeContentPrevious:active {
-    width: 12%;
-    opacity: 0.4;
-}
+
 .homeContentIndicator {
     position: absolute;
     bottom: 10%;
