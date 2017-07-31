@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="403ce6d3-9bed-4be3-ae5c-ab6c13d3c2ce" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HomeContent.js" afterPath="$PROJECT_DIR$/src/HomeContent.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +24,8 @@
       <file leaf-file-name="HomeContent.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HomeContent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="235">
+              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#509#548#0" expanded="true" />
@@ -85,8 +86,8 @@
         <option value="$PROJECT_DIR$/src/HomeView.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/AppHeader.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/HomeContent.js" />
       </list>
     </option>
@@ -286,12 +287,12 @@
       <option name="presentableId" value="Default" />
       <updated>1500674845179</updated>
       <workItem from="1500674846871" duration="33933000" />
-      <workItem from="1501123030055" duration="17816000" />
+      <workItem from="1501123030055" duration="21765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51749000" />
+    <option name="totallyTimeSpent" value="55698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="736" extended-state="6" />
@@ -335,7 +336,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/HomeContent.js</url>
-          <line>53</line>
+          <line>70</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -472,23 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <marker date="1501378860698" expanded="true" signature="0:41" ph="{&quot;name&quot;: &quot;talie-smith&quot;...}" />
-            <marker date="1501378860698" expanded="true" signature="0:600" ph="{&quot;name&quot;: &quot;talie-smith&quot;...}" />
-            <marker date="1501378860698" expanded="true" signature="0:601" ph="{&quot;name&quot;: &quot;talie-smith&quot;...}" />
-            <marker date="1501378860698" expanded="true" signature="109:116" ph="{&quot;react&quot;: &quot;^15.6.1&quot;...}" />
-            <marker date="1501378860698" expanded="true" signature="109:327" ph="{&quot;express&quot;: &quot;^4.15.3&quot;...}" />
-            <marker date="1501378860698" expanded="true" signature="350:385" ph="{&quot;react-scripts&quot;: &quot;1.0.10&quot;...}" />
-            <marker date="1501378860698" expanded="true" signature="400:558" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
-            <marker date="1501378860698" expanded="true" signature="573:598" ph="{&quot;node&quot;: &quot;6.9.2&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -529,18 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1501378981042" expanded="true" signature="7:177" ph="..." />
-            <marker date="1501378981042" expanded="true" signature="200:323" ph="&lt;BrowserRouter/&gt;" />
-            <marker date="1501378981042" expanded="true" signature="224:302" ph="&lt;div/&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppHeader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -558,10 +530,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <marker date="1501378860698" expanded="true" signature="0:41" ph="{&quot;name&quot;: &quot;talie-smith&quot;...}" />
+            <marker date="1501378860698" expanded="true" signature="0:600" ph="{&quot;name&quot;: &quot;talie-smith&quot;...}" />
+            <marker date="1501378860698" expanded="true" signature="0:601" ph="{&quot;name&quot;: &quot;talie-smith&quot;...}" />
+            <marker date="1501378860698" expanded="true" signature="109:116" ph="{&quot;react&quot;: &quot;^15.6.1&quot;...}" />
+            <marker date="1501378860698" expanded="true" signature="109:327" ph="{&quot;express&quot;: &quot;^4.15.3&quot;...}" />
+            <marker date="1501378860698" expanded="true" signature="350:385" ph="{&quot;react-scripts&quot;: &quot;1.0.10&quot;...}" />
+            <marker date="1501378860698" expanded="true" signature="400:558" ph="{&quot;start&quot;: &quot;react-scripts start&quot;...}" />
+            <marker date="1501378860698" expanded="true" signature="573:598" ph="{&quot;node&quot;: &quot;6.9.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding>
+            <marker date="1501533003361" expanded="true" signature="7:177" ph="..." />
+            <marker date="1501533003361" expanded="true" signature="200:323" ph="&lt;BrowserRouter/&gt;" />
+            <marker date="1501533003361" expanded="true" signature="224:302" ph="&lt;div/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HomeContent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="235">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#509#548#0" expanded="true" />
