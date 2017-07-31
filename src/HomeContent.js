@@ -1,3 +1,14 @@
+//mojs react-motion
+//CSS/JS/Styles => great for small sequences and simple interactions
+//Once you get more than three, switch to:
+//GSAP, great for sequencing and complex movement, cross-browser consistency
+//React-Motion, great for single movements you'd like to look realistic, not meant for sequencing.
+//React-Move, similar to react-motion, small flexible
+//Velocity-React, like GSAP, less bells and whistles
+// opacity and transforms are most preformant ways to animate
+//react-transition-group-plus
+
+
 import React, {Component} from 'react';
 import { TweenMax } from 'gsap';
 
@@ -24,14 +35,11 @@ class HomeContent extends Component {
                     </div>
 
                     <div className="homeContentNext" onClick={()=> {
-                        TweenMax.to( document.getElementsByClassName('.homeContentHero'), 0.25, {width: 0});
-                        TweenMax.to( document.getElementsByClassName('.homeContentHero'), 0.25, {delay: 0.25, width: "15%"});
                         if(this.state.backgroundPicNum < this.props.sections.length - 1){this.setState({backgroundPicNum: this.state.backgroundPicNum + 1})}
                     }  }>
                         <i className="fa fa-long-arrow-right"></i>
                     </div>
-                    <div className="homeContentPrevious" onClick={()=> { TweenMax.to(document.getElmentByClassName('.homeContentNext'), 0.25, {width: 0});
-                        TweenMax.to(document.getElmentByClassName('.homeContentNext'), 0.25, {delay: 0.25, width: "15%"});
+                    <div className="homeContentPrevious" onClick={()=> {
                         if(this.state.backgroundPicNum > 0){this.setState({backgroundPicNum: this.state.backgroundPicNum - 1})} }
                     }>
                         <i className="fa fa-long-arrow-left"></i>
