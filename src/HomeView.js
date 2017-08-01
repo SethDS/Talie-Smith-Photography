@@ -12,25 +12,25 @@ class HomeView extends Component {
                 {
                     title: "Family",
                     picRef: "./images/family.jpg",
-                    path: "something..",
+                    path: "family",
                     navDot: "dotzero"
                 },
                 {
                     title: "Portrait",
                     picRef: "./images/portrait.jpg",
-                    path: "something...",
+                    path: "portrait",
                     navDot: "dotone"
                 },
                 {
                     title: "Travel",
                     picRef: "./images/travel.jpg",
-                    path: "something...",
+                    path: "travel",
                     navDot: "dottwo"
                 },
                 {
                     title: "Browse All",
                     picRef: "./images/browse-all.jpg",
-                    path: "something",
+                    path: "browse",
                     navDot: "dotthree"
                 },
                 {
@@ -42,7 +42,7 @@ class HomeView extends Component {
                 {
                     title: "About",
                     picRef: "./images/about.jpg",
-                    path: "something...",
+                    path: "about",
                     navDot: "dotfive"
                 }
             ]

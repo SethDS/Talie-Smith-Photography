@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+
 .App {
     position: absolute;
     height: 100%;
@@ -81,7 +82,6 @@ body {
     transform: translate(-50%);
     height: calc(100% - 25%);
     width: calc(100% - 20%);
-    /*background-image: url('./images/kit-junglist-71373.jpg');*/
     background-size: cover;
     background-position: center;
 }

@@ -10,7 +10,7 @@
 
 
 import React, {Component} from 'react';
-import { TweenMax } from 'gsap';
+import {Link} from 'react-router';
 
 class HomeContent extends Component {
 
@@ -18,11 +18,7 @@ class HomeContent extends Component {
         super();
 
         this.state = {
-            backgroundPicNum: 0,
-            changeHero: function (element) {
-                console.log(element.style);
-
-            }
+            backgroundPicNum: 0
         }
     };
 
@@ -32,16 +28,13 @@ class HomeContent extends Component {
 
             return (
                 <div className="homeContent">
-                    <div className="homeContentHero" ref={(el) => {
-                        this.contentHero = el
-                    }}
-                         style={{backgroundImage: 'url(' + require("" + this.props.sections[this.state.backgroundPicNum].picRef + "") + ')'}}>
-                        <div className="homeContentHeroHeading">
+                    <div className="homeContentHero" style={{backgroundImage: 'url(' + require("" + this.props.sections[this.state.backgroundPicNum].picRef + "") + ')'}}>
+                        <Link to={this.props.sections[this.state.backgroundPicNum].path}><div className="homeContentHeroHeading">
                             <h2>{this.props.sections[this.state.backgroundPicNum].title}</h2></div>
+                        </Link>
                     </div>
 
                     <div className="homeContentNext" onClick={() => {
-                        this.state.changeHero(this.contentHero);
                         if (this.state.backgroundPicNum < this.props.sections.length - 1) {
                             this.setState({backgroundPicNum: this.state.backgroundPicNum + 1})
                         }
