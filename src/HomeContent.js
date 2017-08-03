@@ -10,7 +10,6 @@
 
 
 import React, {Component} from 'react';
-import {Link} from 'react-router';
 
 class HomeContent extends Component {
 
@@ -29,9 +28,8 @@ class HomeContent extends Component {
             return (
                 <div className="homeContent">
                     <div className="homeContentHero" style={{backgroundImage: 'url(' + require("" + this.props.sections[this.state.backgroundPicNum].picRef + "") + ')'}}>
-                        <Link to={this.props.sections[this.state.backgroundPicNum].path}><div className="homeContentHeroHeading">
+                        <div className="homeContentHeroHeading">
                             <h2>{this.props.sections[this.state.backgroundPicNum].title}</h2></div>
-                        </Link>
                     </div>
 
                     <div className="homeContentNext" onClick={() => {

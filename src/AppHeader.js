@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class AppHeader extends Component {
 
@@ -8,7 +8,7 @@ class AppHeader extends Component {
 
         return(
             <div className="appHomeHeader">
-                <div className="appInitials"><Link to="/"><h1>TS</h1></Link></div>
+                <div className="appInitials"><Link to="/about"><h1>TS</h1></Link></div>
                 <div className="homeMenu">
                     <div className="menuSection"></div>
                     <div className="menuSection"></div>

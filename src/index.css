@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+Link {
+    text-decoration: none;
+}
+
 .App {
     position: absolute;
     height: 100%;
